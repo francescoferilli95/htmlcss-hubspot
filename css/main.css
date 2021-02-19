@@ -341,6 +341,13 @@ body {
 .hubs p {
     line-height: 30px;
     margin-bottom: 50px;
+    margin: 0 40px;
+}
+
+.hubs .hr {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 75%;
 }
 
 .hubs h3 {
