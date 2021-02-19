@@ -33,6 +33,10 @@ body {
     float: left;
 }
 
+.float-right {
+    float: right;
+}
+
 /*LAYOUT*/
 
 .w-70 {
@@ -426,6 +430,68 @@ body {
 .row-content:nth-child(6),
 .row-content:nth-child(7) {
     border-bottom: 0;
+}
+
+/*SECTION FIVE*/
+
+.start {
+    padding-top: 30px;
+    height: 220px;
+    background: #fff;
+}
+
+.start-bottom .container {
+    position: relative;
+}
+
+.start-top h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.start-top p {
+    line-height: 30px;
+}
+
+.start-right .img img {
+    display: inline-block;
+    max-width: 100px;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.start-bottom {
+    height: 400px;
+    background: #fff;
+}
+
+.start-bottom-right img {
+    max-width: 80%;
+}
+
+.start-bottom .start-bottom-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.start-bottom .start-bottom-left p {
+    margin: 30px 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.start-bottom .start-bottom-left h2 {
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.start-bottom .start-bottom-right {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
