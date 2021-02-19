@@ -116,7 +116,7 @@ body {
 
 .header-top .top-left .contact {
     padding-left: 20px;
-    border-left: 1px solid black;
+    border-left: 1px solid #33475b;
 }
 
 /*TOP RIGHT*/
@@ -162,6 +162,41 @@ body {
 
 .header-bottom .header-bottom-right a {
     padding-right: 20px;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+    height: 500px;
+    background: #fff4ef;
+    background-image: url('..//img-hubspot/jumbotron.png');
+    background-size: 1030px;
+    background-repeat: no-repeat;
+    background-position: 60% 100%;
+}
+
+.jumbotron-left {
+    padding-top: 40px;
+}
+.jumbotron-left h1 {
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.jumbotron-left .btn {
+    margin: 30px 0;
+}
+
+.jumbotron-left p {
+    font-size: 14px;
+}
+
+.ground {
+    height: 80px;
+    background: #afebe4;
+    margin-top: 55px;
+    border-top: 3px solid #33475b;
+    border-bottom: 3px solid #33475b;
 }
 
 
