@@ -12,7 +12,6 @@ body {
 }
 
 /*UTILITIES*/
-
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -287,10 +286,10 @@ body {
 
 .free-right .hr {
     display: inline-block;
-    height: 50px;
+    height: 7px;
     width: 470px;
     margin-left: 20px;
-    border-bottom: 1px solid #33475b;
+    border-top: 3px solid #33475b;
 }
 
 /*SECTION THREE*/
@@ -562,4 +561,3 @@ body {
     right: 0;
     top: 40px;
 }
-
