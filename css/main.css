@@ -1,0 +1,171 @@
+/*GENERAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #33475b;
+}
+
+/*UTILITIES*/
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+/*LAYOUT*/
+
+.w-70 {
+    width: 70%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+/*BUTTONS*/
+
+.btn {
+    display: inline-block;
+    min-width: 50px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+}
+
+.btn.btn-orange {
+    background: #fe775a;
+    color: #fff;
+    border: 1px solid transparent;
+
+}
+
+.btn.btn-big {
+    padding: 20px;
+}
+
+/*MENU*/
+
+.menu-inline li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+}
+
+/*HEADER*/
+
+.main-header {
+    background: #f4f9fd;
+}
+
+.header-top {
+    height: 90px;
+}
+
+.header-top {
+    position: relative;
+}
+
+/*TOP LEFT*/
+
+.header-top .top-left {
+    position: absolute;
+    top:50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.header-top .top-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.header-top .top-left .english {
+    display: inline-block;
+    padding: 0 8px;
+}
+
+.header-top .top-left .icon {
+    padding-right: 20px;
+}
+
+.header-top .top-left .contact {
+    padding-left: 20px;
+    border-left: 1px solid black;
+}
+
+/*TOP RIGHT*/
+
+.header-top .top-right .icon {
+    padding-right: 20px;
+    color: #00a4bd;
+}
+
+.header-top .top-right .btn {
+    margin-right: 20px;
+}
+
+.header-bottom {
+    background: #fff;
+    height: 90px;
+}
+
+.header-bottom .container {
+    position: relative;
+    height: 100%;
+}
+
+.header-bottom .header-bottom-left {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.header-bottom .header-bottom-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    text-align: right;
+}
+
+.header-bottom .header-bottom-right a {
+    text-decoration: none;
+    color: #33475b;
+}
+
+.header-bottom .header-bottom-right a {
+    padding-right: 20px;
+}
+
+
+
+
+
+
