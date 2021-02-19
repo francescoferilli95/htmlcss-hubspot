@@ -18,6 +18,11 @@ body {
     margin: 0 auto;
 }
 
+.container-small {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 .clearfix::after {
     content: '';
     display: table;
@@ -202,22 +207,22 @@ body {
 
 /*SECTION ONE*/
 
-.info .container {
+.info .container-small {
     text-align: center;
 }
 
-.info .container img {
+.info .container-small img {
     margin-top: 60px;
     display: inline-block;
     max-width: 30%;
 }
 
-.info .container h2 {
+.info .container-small h2 {
     font-size: 40px;
     margin: 30px 0;
 }
 
-.info .container p {
+.info .container-small p {
     font-size: 20px;
     line-height: 35px;
     margin-bottom: 60px;
