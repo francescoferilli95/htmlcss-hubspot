@@ -79,6 +79,10 @@ body {
     margin-right: 20px;
 }
 
+.menu-block li {
+    list-style: none;
+}
+
 /*HEADER*/
 
 .main-header {
@@ -284,5 +288,83 @@ body {
     margin-left: 20px;
     border-bottom: 1px solid #33475b;
 }
+
+/*SECTION THREE*/
+.hubs {
+    margin-bottom: 50px;
+}
+.hub-left {
+    width: 30%;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+
+.hub-center {
+    width: 30%;
+    margin: 0 4.5%;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+
+.hub-right {
+    width: 30%;
+    text-align: center;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.2);
+}
+
+.hubs img {
+    padding-top: 20px;
+    max-width: 40%;
+}
+
+.hubs .hub-center img {
+    max-width: 50%;
+}
+
+.hubs .hub-right img {
+    max-width: 37%;
+}
+
+.hubs h2 {
+    margin: 20px 0 40px 0;
+}
+
+.hubs p {
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.hubs h3 {
+    margin: 40px 0;
+}
+
+.hubs li {
+    padding-left: 40px;
+    text-align: left;
+}
+
+.hubs li:last-child{
+    margin-bottom: 30px;
+}
+
+.hubs i {
+    display: inline-block;
+    padding-right: 20px;
+    color: #fe775a;
+}
+
+.hubs a {
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
