@@ -113,7 +113,9 @@ body {
 
 .header-top .top-left .english {
     display: inline-block;
+    color: #33475b;
     padding: 0 8px;
+    text-decoration: none;
 }
 
 .header-top .top-left .icon {
@@ -121,8 +123,10 @@ body {
 }
 
 .header-top .top-left .contact {
+    color: #33475b;
     padding-left: 20px;
     border-left: 1px solid #33475b;
+    text-decoration: none;
 }
 
 /*TOP RIGHT*/
